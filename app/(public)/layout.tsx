@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 export default function UserLayout({children}:
-  {children: any}) {
+  {children: string}) {
   return (
     <html lang="en">
       <body
